@@ -42,7 +42,6 @@
 }
 .karma{
     border-top: 9px solid yellow;
-
 }
 
 
@@ -50,11 +49,24 @@
 
 .title_page h2,h3,p{
     font-size: 2rem;
-
 }
+
 .card img{
-    width: 90px;
-    height: 90px;
+    width: 7rem;
+    height: 7rem;
+}
+.content{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 1.6rem;
+}
+.img{
+    display: flex;
+    align-self: end;
+    justify-content: end;
+    padding: 10px;
 }
 
 /* Responsive part */
